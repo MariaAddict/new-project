@@ -26,7 +26,7 @@ const imageItemList = new Section({
     }
 }, ".images");
 
-const checkedPlanet = (planet) => {
+const showPlanet = (planet) => {
     let item
     switch (planet) {
         case "mercury":
@@ -94,12 +94,13 @@ buttonClickMenu.addEventListener("click", () => {
     }, 1000);
 });
 
+// слушатель чекбокса "выбрать все"
 checkBoxAll.addEventListener("click", () => {
     if (checkBoxAll.checked) {
         checkboxs.forEach(chboxPlanet => {
             removePlanet(chboxPlanet.id);
             chboxPlanet.checked = true;
-            checkedPlanet(chboxPlanet.id);
+            showPlanet(chboxPlanet.id);
             
         });
     } else {
@@ -110,10 +111,11 @@ checkBoxAll.addEventListener("click", () => {
     }
 });
 
+//слушатель на каждый чекбокс
 checkboxs.forEach(chboxPlanet => {
     chboxPlanet.addEventListener("click", () => {
         if (chboxPlanet.checked) {
-            checkedPlanet(chboxPlanet.id);
+            showPlanet(chboxPlanet.id);
         }
         else {
             removePlanet(chboxPlanet.id);
