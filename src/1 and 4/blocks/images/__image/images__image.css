@@ -1,0 +1,5 @@
+.images__image {
+    border-radius: 50%;
+    max-width: 100px;
+    height: 100px;
+}

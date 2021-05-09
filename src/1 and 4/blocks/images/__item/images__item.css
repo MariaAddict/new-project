@@ -1,0 +1,7 @@
+.images__item {
+    max-width: 100px;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    height: min-content;
+}

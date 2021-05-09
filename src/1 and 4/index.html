@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="html, css, javascript" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Test</title>
+  </head>
+
+  <body class="page">
+    <header class="header">
+      <div class="header__main">
+        <button type="button" class="header__button"></button>
+        <h1 class="header__title">New project</h1>
+      </div>
+      <img src="img/planet.png" alt="планета" class="header__image" />
+    </header>
+    <main class="main">
+      <ul class="menu">
+        <li class="menu__item">Item</li>
+        <li class="menu__item">Item</li>
+        <li class="menu__item">Item</li>
+        <li class="menu__item">Item</li>
+        <li class="menu__item">Item</li>
+        <li class="menu__item">Item</li>
+      </ul>
+      <form class="planets">
+        <p class="planets__title">Выберете планету</p>
+        <ul class="planets__list">
+          <li>
+            <input class="planets__checkbox" type="checkbox" id="mercury" />
+            <label class="planets__name" for="mercury">Меркурий</label>
+          </li>
+          <li>
+            <input class="planets__checkbox" type="checkbox" id="venus" />
+            <label class="planets__name" for="venus">Венера</label>
+          </li>
+          <li>
+            <input class="planets__checkbox" type="checkbox" id="earth" />
+            <label class="planets__name" for="earth">Земля</label>
+          </li>
+          <li>
+            <input class="planets__checkbox" type="checkbox" id="mars" />
+            <label class="planets__name" for="mars">Марс</label>
+          </li>
+          <li>
+            <input class="planets__checkbox" type="checkbox" id="jupiter" />
+            <label class="planets__name" for="jupiter"
+              >Юпитер</label
+            >
+          </li>
+          <li>
+            <input class="planets__checkbox" type="checkbox" id="saturn" />
+            <label class="planets__name" for="saturn"
+              >Сатурн</label
+            >
+          </li>
+          <li>
+            <input class="planets__checkbox" type="checkbox" id="uranus" />
+            <label class="planets__name" for="uranus"
+              >Уран</label
+            >
+          </li>
+          <li>
+            <input class="planets__checkbox" type="checkbox" id="neptune" />
+            <label class="planets__name" for="neptune"
+              >Нептун</label
+            > 
+          </li>
+          <li>
+            <input type="checkbox" id="checkall" />
+            <label class="planets__name" for="checkall"
+              >Выбрать все</label
+            > 
+          </li>
+        </ul>
+      </form>
+      <ul class="images">
+      </ul>
+      <template class="img-template">
+        <li class="images__item">
+            <img src="#" alt="" class="images__image">
+        </li>
+    </template>
+    </main>
+    <script type="module" src="./pages/index.js"></script>
+  </body>
+</html>

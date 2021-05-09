@@ -1,0 +1,12 @@
+@import url(./__item/images__item.css);
+@import url(./__image/images__image.css);
+
+.images {
+    width: 100%;
+    margin: 30px 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr minmax(100px, 1fr);
+    gap: 10px 10px;
+    list-style: none;
+}

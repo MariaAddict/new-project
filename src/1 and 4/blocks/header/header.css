@@ -1,0 +1,16 @@
+@import url(../header/__title/header__title.css);
+@import url(../header/__image/header__image.css);
+@import url(../header/__button/header__button.css);
+@import url(../header/__main/header__main.css);
+
+.header {
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px groove #E6E6FA;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

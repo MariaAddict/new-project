@@ -1,0 +1,7 @@
+.header__image {
+    max-width: 75px ;
+    max-height: 75px;
+    background-color: inherit;
+    margin-right: 10px;
+    border-radius: 50%;
+}

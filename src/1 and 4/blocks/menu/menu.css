@@ -1,0 +1,24 @@
+@import url(./__item/menu__item.css);
+
+.menu {
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 2px solid #e6e6fa;
+  min-height: 100%;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 10px rgba(230, 230, 250, 0.5);
+  animation: open 2s 1 normal ease forwards 0s;
+}
+
+.menu::after {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu {
+    animation: close 2s ease 0s 1 normal forwards;
+    display: none;
+  }
+}

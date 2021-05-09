@@ -1,0 +1,10 @@
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/_active/menu_active.css);
+@import url(../blocks/rotation/rotation.css);
+@import url(../blocks/open/open.css);
+@import url(../blocks/close/close.css);
+@import url(../blocks/planets/planets.css);
+@import url(../blocks/images/images.css);

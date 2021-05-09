@@ -1,0 +1,12 @@
+.menu_active {
+    animation: close 2s ease 0s 1 normal forwards;
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .menu_active {
+        display: block;
+        animation: open 2s 1 normal ease-in-out forwards 0s;
+    }
+}
+

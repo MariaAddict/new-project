@@ -1,0 +1,9 @@
+@import url(./__title/planets__title.css);
+@import url(./__list/planets__list.css);
+
+.planets {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 20px;
+}
