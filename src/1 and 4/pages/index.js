@@ -1,13 +1,13 @@
 import Section from '../components/Section.js';
 
-const imgMercury = '/src/1 and 4/img/mercury.jpg';
-const imgVenus = '/src/1 and 4//img/venus.jpg';
-const imgEarth = '/src/1 and 4//img/earth.jpg';
-const imgMars = '/src/1 and 4//img/mars.jpg';
-const imgJupiter = '/src/1 and 4//img/jupiter.jpg';
-const imgSaturn = '/src/1 and 4//img/saturn.jpg';
-const imgUranus = '/src/1 and 4//img/uranus.jpg';
-const imgNeptune = '/src/1 and 4//img/neptune.jpg';
+const imgMercury = './img/mercury.jpg';
+const imgVenus = './img/venus.jpg';
+const imgEarth = './img/earth.jpg';
+const imgMars = './img/mars.jpg';
+const imgJupiter = './img/jupiter.jpg';
+const imgSaturn = './img/saturn.jpg';
+const imgUranus = './img/uranus.jpg';
+const imgNeptune = './img/neptune.jpg';
 
 const buttonClickMenu = document.querySelector(".header__button");
 const menu = document.querySelector(".menu");
